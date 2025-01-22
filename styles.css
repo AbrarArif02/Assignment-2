@@ -720,4 +720,8 @@ footer {
   .logo-container {
     justify-content: center;
   }
+
+  marquee {
+    text-align: center;
+  }
 }
