@@ -632,4 +632,92 @@ footer {
   .arrow-buttons{
       display: none;
   }
+
+  .container1 {
+    flex-direction: column;
+  }
+  
+  .story {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -30px ;
+  }
+
+  .large-card {
+    display: none;
+  }
+
+  .right-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 360px;
+    margin-left: -40px;
+    margin-bottom: -40px;
+  }
+
+  .card h3 {
+    font-size: 10px;
+    text-align: left;
+    padding: 15px;
+    margin-top: -60px;
+    margin-bottom: 5px;
+  }
+
+  .date-bar2 {
+    top: 95px;
+    left: 15px;
+    padding: 7px 10px;
+    font-size: 10px;
+  }
+  
+  .date-bar3 {
+    top: 95px;
+    left: 15px;
+    padding: 7px 10px;
+    font-size: 10px;
+  }
+
+  .image-container1 {
+    height: 180px;
+  }
+
+  .view-all-btn {
+    margin: 30px 120px;
+    padding: 7px 50px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .footer-section {
+    margin: 10px 0;
+  }
+
+  .footer-left {
+    align-items: left;
+    margin-left: -8px;
+  }
+
+  .footer-right {
+    text-align: left;
+    margin-left: -8px;
+  }
+
+  .footer-right h2 {
+    margin-top: -10px;
+  }
+
+  .footer-right img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .logo-container {
+    justify-content: center;
+  }
 }
